@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main {
+  width: 100%;
+  height: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  float: left;
+}
+#p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  float: right;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  height: 500px;
+  float: left;
+  background-color: rgb(255, 182, 24);
+  border-radius: 0px 0px 0px 50px;
+  overflow: hidden;
+}
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  height: 500px;
+  float: left;
+  background-color: rgb(255, 178, 13);
+  border-left: solid 2px black;
+  border-radius: 0px 0px 50px 0px;
+  overflow: hidden;
+}
+.kucuk {
+  width: 75px;
+  height: 75px;
+  background-color: rgba(165, 42, 42, 0.842);
+
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.kucuk:hover {
+  transform: scale(1.06);
+}
+.kucukdiv {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.kucukdiv2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  opacity: 0;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  transition: 0.5s;
+}
+.ip1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  float: left;
+}
+.ip2 {
+  display: none;
+  /* margin-bottom: 130px; */
+}
+.goster {
+  display: flex !important;
+}
+.gosterme {
+  display: none !important;
+}
+.skordiv {
+  width: 90%;
+  height: 200px;
+  background-color: rgba(182, 3, 3, 0.801);
+  border-radius: 0px 0px 50px 50px;
+  overflow: hidden;
+}
+.head {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.head h1 {
+  color: white;
+}
+.ben {
+  height: 80px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  float: left;
+}
+.sen {
+  height: 80px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  float: right;
+}
+div h2 {
+  color: white;
+  text-align: center;
+}
+div p {
+  text-align: center;
+  color: white;
+}

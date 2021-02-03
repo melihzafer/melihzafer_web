@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a7d8706020.js"crossorigin="anonymous"></script>
+    <title>Forms | MZ</title>
+  </head>
+  <body>
+   
+    <main class="pro">
+      <html class="formss">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>Forms</title>
+          <link rel="stylesheet" href="stil.css" />
+        </head>
+        <body>
+          <form>
+            <fieldset>
+              <legend>Anket</legend>
+              <table cellpadding="10px" ; cellspacing="10px">
+                <tr>
+                  <td>Isim:</td>
+                  <td>
+                    <input type="text" placeholder="Ismini Gir" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Soyisim:</td>
+                  <td>
+                    <input type="text" placeholder="Soyismini gir" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Cinsiyet:</td>
+                  <td>
+                    Erkek<input type="radio" name="Cinsiyet" id="" />
+                    Kadin<input type="radio" name="Cinsiyet" id="" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hobilerin:</td>
+                  <td>
+                    Futbol<input type="checkbox" name="" id="" />
+                    Basketbol<input type="checkbox" name="" id="" /> Tenis<input
+                      type="checkbox"
+                      name=""
+                      id=""
+                    />
+                    Satranc<input type="checkbox" name="" id="" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <button onclick="yazdir()" type="submit">Gonder</button>
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+            <h1 id="ileti" style="display: none">
+              Sorry, mobile version unavailable!
+            </h1>
+            <fieldset>
+              <legend>Devam</legend>
+              <table cellspacing="10px" ; cellpadding="10px">
+                <tr>
+                  <td>Adres:</td>
+                  <td>
+                    <textarea name="" id="" cols="20" rows="8"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Burcun:</td>
+                  <td>
+                    <select name="" id="">
+                      <option value="">Kova</option>
+                      <option value="">Balik</option>
+                      <option value="">Koc</option>
+                      <option value="">Boga</option>
+                      <option value="">Ikizler</option>
+                      <option value="">Yengec</option>
+                      <option value="">Aslan</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">
+                    <button onclick="yazdir()" type="submit">Gonder</button>
+                    <button type="reset">Sil</button>
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </body>
+        <script src="form.js"></script>
+      </html>
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+   
+
+  </body>
+</html>

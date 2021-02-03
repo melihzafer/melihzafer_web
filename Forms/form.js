@@ -1,0 +1,3 @@
+function yazdir(){
+    alert("sorry");
+}

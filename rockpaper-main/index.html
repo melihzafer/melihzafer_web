@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <main>
+     
+      <div class="skordiv">
+        <div class="head">
+          <h1>RockPaperScissor</h1>
+        </div>
+        <div class="sen">
+
+          <h2>
+            Computer:
+            <label id="par2">0</label>
+          </h2>
+        </div>
+        <div class="ben">
+          <h2>
+            Me:
+            <label id="par1">0</label>
+          </h2>
+        </div>
+      </div>
+      <div class="div">
+        <div id="p1">
+          <img class="ip1" id="el1" src="r1.png" alt="" />
+        </div>
+        <div class="kucukdiv">
+          <img
+            class="kucuk"
+            onclick="kc1(), startt(),score()"
+            id="kck1"
+            src="r1.png"
+            alt=""
+          />
+          <img
+            onclick="kc2(), startt(),score()"
+            class="kucuk"
+            id="kck2"
+            src="p1.png"
+            alt=""
+          />
+          <img
+            onclick="kc3(), startt(),score()"
+            class="kucuk"
+            id="kck3"
+            src="s1.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="div2">
+        <div id="p2">
+          <img class="ip2" style="display: flex" id="elgo" src="r.png" alt="" />
+          <img class="ip2" id="el4" src="r.png" alt="" />
+          <img class="ip2" id="el5" src="p.png" alt="" />
+          <img class="ip2" id="el6" src="s.png" alt="" />
+        
+        </div>
+          <div class="kucukdiv2">
+            <img
+              class="kucuk"
+              onclick="kc1(), startt(),score()"
+              id="kck1"
+              src="r1.png"
+              alt=""
+            />
+            <img
+              onclick="kc2(), startt(),score()"
+              class="kucuk"
+              id="kck2"
+              src="p1.png"
+              alt=""
+            />
+            <img
+              onclick="kc3(), startt(),score()"
+              class="kucuk"
+              id="kck3"
+              src="s1.png"
+              alt=""
+            />
+          </div>
+      </div>
+    </main>
+    <script src="custom.js"></script>
+  </body>
+</html>

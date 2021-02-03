@@ -1,0 +1,186 @@
+@media screen and (min-width: 1036px) {
+  button {
+    padding: 20px !important;
+    width: 100px;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: rgb(236, 139, 139);
+    font-size: 32px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    transition: 0.5s linear;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(146, 45, 45);
+  }
+  fieldset {
+    border-color: salmon !important;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ekran1 {
+    width: 94.4%;
+
+    height: 50px;
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ortala {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  button {
+    padding: 20px !important;
+    width: 100px;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: rgb(236, 139, 139);
+    font-size: 32px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    transition: 0.5s linear;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(146, 45, 45);
+  }
+  fieldset {
+    border-color: salmon !important;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ekran1 {
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ortala {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  button {
+    padding: 20px !important;
+    width: 100px;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: rgb(236, 139, 139);
+    font-size: 32px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    transition: 0.5s linear;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(146, 45, 45);
+  }
+  fieldset {
+    border-color: salmon !important;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ekran1 {
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ortala {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  button {
+    padding: 20px !important;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: rgb(236, 139, 139);
+    font-size: 32px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    transition: 0.5s linear;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(146, 45, 45);
+  }
+  fieldset {
+    border-color: salmon !important;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 10;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ekran1 {
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: rgb(87, 5, 26);
+    padding: 10px !important;
+  }
+  .ortala {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
